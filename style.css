@@ -61,9 +61,10 @@ footer {
 }
 
 .date-square {
-  width: 50px;
+  width: 55px;
   height: 50px;
   background-color: white;
+  display: inline-block;
 }
 
 .date-square  p {
