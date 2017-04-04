@@ -31,4 +31,37 @@ h1 {
 }
 The CSS in the example above will change the display of all <h1> elements to inline. The browser will render <h1> elements on the same line as other inline elements immediately before or after them (if there are any).
 
+<!-- Block Display -->
+Some elements are not displayed in the same line as the content around them. These are called block-level elements. These elements fill the entire width of the page and, unless specified, are the height necessary to accommodate the content inside.
+
+Elements that are block-level by default include all levels of heading elements (<h1> through <h6>), <p>, <div> and <footer>. For a complete list of block level elements, click here.
+
+strong {
+  display: block;
+}
+In the example above, all <strong> elements will be displayed on their own line, with no content directly on either side of them even though their contents may not fill the width of most computer screens.
+
+In the previous exercise we changed the display of all header elements to be inline. However, for this webpage we prefer the headers to each be on their own line. Below, you will revert the headers to block styling and change the display of <img>s to block to see how they behave.
+
+<!-- Inline-Block Display -->
+The third value for the display property is inline-block. Inline-block display combines features of both inline and block elements. Inline-block elements can appear next to each other and we can specify their dimensions using the width and height properties. Images are the best example of default inline-block elements.
+
+For example, divs in the CSS below will be displayed on the same line and with the specified dimensions:
+
+<div class="rectangle">
+  <p>I’m a rectangle!</p>
+</div>
+<div class="rectangle">
+  <p>So am I!</p>
+</div>
+<div class="rectangle">
+  <p>Me three!</p>
+</div>
+.rectangle {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+}
+In the example above, there are three rectangular divs that each contain a paragraph of text. The .rectangle divs will all appear inline (provided there is enough space from left to right) with a width of 200 pixels and height of 300 pixels, even though the text inside of them may not require 200 pixels by 300 pixels of space.
+
 <!--  -->
