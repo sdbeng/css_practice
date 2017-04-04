@@ -1,0 +1,124 @@
+*  {
+  margin: 0px;
+  border: 0;
+  font-family: 'Space Mono';
+  color: white;
+  background-color: #0e0e0e;
+  margin: auto;
+}
+
+h1 {
+  border-bottom: 1px solid white;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+img {
+  margin: 0px 40px 40px 40px;
+  width: 30%;
+  height: auto;
+}
+
+p {
+  margin: 0 6%;
+}
+
+nav ul li {
+  padding: 0px 25px;
+}
+
+footer {
+  min-width: 620px;
+  max-width: 980px;
+}
+
+footer li {
+  padding: 0px 5px;
+}
+
+.container {
+  max-width: 980px;
+  min-width: 625px;
+}
+
+.topline {
+  width: 200px;
+  height: 4px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.p-container {
+  margin: 0px 6%;
+}
+
+.timeline {
+  height: 10px;
+  width: 100%;
+  z-index: 1;
+}
+
+.date-square {
+  margin: 0px 16%;
+}
+
+#early .topline {
+    background-color: #ff5e40;
+}
+
+#middle .topline {
+    background-color: #f1ff40;
+}
+
+#late .topline {
+    background-color: #40a9ff;
+}
+
+#current .topline {
+   background-color: #df3fff;
+}
+
+#early .timeline {
+  background-image: linear-gradient(to right, #ff3f3f, #ffcc3f);
+}
+
+#middle .timeline {
+  background-image: linear-gradient(to right, #f2ff3f, #3fe9ff);
+}
+
+#late .timeline {
+  background-image: linear-gradient(to right, #3fa9ff, #b03fff);
+}
+
+#current .timeline {
+  background-image: linear-gradient(to right, #e03fff, #ff3f3f);
+  z-index: 10;
+}
+
+#early h2 {
+  color: #ff5e40;
+}
+
+#middle h2 {
+ color: #f1ff40;
+}
+
+#late h2 {
+  color: #40a9ff;
+}
+
+#current h2 {
+  color: #df3fff;
+}

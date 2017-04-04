@@ -7,11 +7,11 @@ body  {
 }
 
 h1 {
-
+  display: inline;
 }
 
 h2 {
-
+  display: inline;
 }
 
 h4 {
@@ -74,4 +74,12 @@ footer {
   position: absolute;
   right: 15px;
   bottom: 15px;
+}
+footer {
+  height: 200px;
+  color: white;
+}
+
+footer li{
+  display: inline;
 }
